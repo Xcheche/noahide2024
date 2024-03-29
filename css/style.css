@@ -46,3 +46,19 @@ p{
 	font-weight: 800px;
     text-align: justify;
 }
+
+
+
+/* scroll from down */
+  
+#scroll-to-top {
+    position: fixed;  /* Fix the button to a position */
+    bottom: 20px;      /* Set the distance from the bottom */
+    right: 20px;       /* Set the distance from the right */
+    display: none;     /* Initially hide the button */
+    transition: opacity 0.5s ease-in-out; /* Add a smooth fade-in/out effect (optional) */
+  }
+  
+  #scroll-to-top:hover {
+    opacity: 0.8; /* Change opacity on hover (optional) */
+  }
