@@ -1,64 +1,81 @@
-.row-header{
+.row-header {
     color: white;
     margin: 0px auto;
     padding: 0px auto;
 }
 
-.row-style{ 
-    margin:0px auto;
+.row-style {
+    margin: 0px auto;
     padding: 50px 0px;
-    border-bottom: 1px ridge ;
+    border-bottom: 1px ridge;
     min-height: 400px;
 }
-.footer{
-    background-color: #D1C4E9;
+
+.footer {
+    background-color: lightblue;
     margin: 0px auto;
     padding: 20px opx;
 }
-.jumbotron{
-    padding:70px 30px;
+
+.jumbotron {
+    padding: 70px 30px;
     margin 0px auto;
-    background-color:azure;
+    background-color: azure;
     font-family: Myriad Pro;
     font-weight: 800px;
     line-height: 35px;
 }
-.address{
+
+.address {
     font-size: 80%;
     margin: 0px;
-    color:#0f0f0f;
+    color: #0f0f0f;
 }
-.icon{
-	margin-bottom: 50px;
+
+.icon {
+    margin-bottom: 50px;
 }
-.footer{
-	margin: 10px auto;
+
+.footer {
+    margin: 10px auto;
 }
-.card{
-	box-shadow: 5px 2px 2px;
+
+.card {
+    box-shadow: 5px 2px 2px;
 }
-.contain, .banner{
-	margin: 95px auto;
+
+.contain,
+.banner {
+    margin: 95px auto;
 }
-p{
-	font-family: Myriad Pro;
-	line-height: 35px;
-	font-weight: 800px;
+
+p {
+    font-family: Myriad Pro;
+    line-height: 35px;
+    font-weight: 800px;
     text-align: justify;
 }
 
 
 
 /* scroll from down */
-  
+
 #scroll-to-top {
-    position: fixed;  /* Fix the button to a position */
-    bottom: 20px;      /* Set the distance from the bottom */
-    right: 20px;       /* Set the distance from the right */
-    display: none;     /* Initially hide the button */
-    transition: opacity 0.5s ease-in-out; /* Add a smooth fade-in/out effect (optional) */
-  }
-  
-  #scroll-to-top:hover {
-    opacity: 0.8; /* Change opacity on hover (optional) */
-  }
+    position: fixed;
+    /* Fix the button to a position */
+    bottom: 20px;
+    /* Set the distance from the bottom */
+    right: 20px;
+    /* Set the distance from the right */
+    display: none;
+    /* Initially hide the button */
+    transition: opacity 0.5s ease-in-out;
+    /* Add a smooth fade-in/out effect (optional) */
+    border-radius: 15px 40px;
+    background-color: lightblue;
+}
+
+#scroll-to-top:hover {
+    opacity: 0.8;
+    /* Change opacity on hover (optional) */
+}
